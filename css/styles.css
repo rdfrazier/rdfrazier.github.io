@@ -6,6 +6,7 @@
 #about{
   color: white;
   font-size: 20px;
+  padding-top: 23px;
 }
 #about:hover{
   color: gold;
@@ -13,6 +14,7 @@
 #work{
   color: white;
   font-size: 20px;
+  padding-top: 23px;
 }
 #work:hover{
   color: gold;
@@ -20,6 +22,7 @@
 #contact{
   color: white;
   font-size: 20px;
+  padding-top: 23px;
 }
 #contact:hover{
   color: gold;
@@ -27,6 +30,7 @@
 #resume{
   color: white;
   font-size: 20px;
+  padding-top: 23px;
 }
 #resume:hover{
   color: gold;
@@ -35,7 +39,7 @@
   color: white;
   /*font-size: 11vw;*/
   font-size: 140px;
-  margin-top: 63px;
+  margin-top: 75px;
   position: absolute;
   font-family: 'Prompt', sans-serif;
   line-height: 90px;
@@ -56,6 +60,10 @@
 .nav-section{
   position: fixed;
   padding: 0;
+}
+.image-logo{
+  height: 70px;
+  margin-left: 20px;
 }
 .testing{
   font-size: 10px;
