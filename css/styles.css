@@ -78,6 +78,18 @@
   font-size: 50px;
   margin: 15px;
 }
+.facebook:hover{
+  color: #3B5998;
+  transform: scale(1.4);
+}
+.linked:hover{
+  color: #1F89BE;
+  transform: scale(1.4);
+}
+.github:hover{
+  color: #92D6EF;
+  transform: scale(1.4);
+}
 .headshot{
   width: 250px;
   border-radius: 50%;
@@ -135,8 +147,8 @@
     position:relative;
     z-index:10;
     margin:-15px 0;
-    width: 200px;
-    height: 200px;
+    width: 175px;
+    height: 175px;
 }
 .demo-3 figure figcaption {
     display:block;
