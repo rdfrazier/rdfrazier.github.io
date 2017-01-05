@@ -73,28 +73,11 @@
   padding-top: 0;
 
 }
-.social-icon i{
-  color: white;
-  font-size: 50px;
-  margin: 15px;
-}
-.facebook:hover{
-  color: #3B5998;
-  transform: scale(1.4);
-}
-.linked:hover{
-  color: #1F89BE;
-  transform: scale(1.4);
-}
-.github:hover{
-  color: #92D6EF;
-  transform: scale(1.4);
-}
+
 .headshot{
   width: 250px;
   border-radius: 50%;
-  /*margin-top: 55px;*/
-  margin-top: 30px;
+  margin-top: 55px;
 }
 .content-container{
   margin-top: 30px;
@@ -416,11 +399,36 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 .phonecontact i{
   font-size: 50px;
 }
+.social-icon{
+  text-align: center;
+}
+.social-icon i{
+  color: black;
+  font-size: 50px;
+  margin: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.facebook:hover{
+  color: #3B5998;
+  transform: scale(1.5);
+}
+.linked:hover{
+  color: #1F89BE;
+  transform: scale(1.5);
+}
+.github:hover{
+  color: #92D6EF;
+  transform: scale(1.5);
+}
 .emailcontact i{
   font-size: 50px;
 }
 .emailcontainer{
   border-left: 3px solid gold;
+}
+.email{
+  color: black;
 }
 .sitefooter{
   border-top: 3px solid gold;
