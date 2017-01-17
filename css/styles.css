@@ -42,7 +42,7 @@
   margin-top: 75px;
   position: absolute;
   font-family: 'Prompt', sans-serif;
-  line-height: 90px;
+  line-height: 75px;
 }
 
 .title{
@@ -75,9 +75,9 @@
 }
 
 .headshot{
-  width: 250px;
+  width: 300px;
   border-radius: 50%;
-  margin-top: 55px;
+  margin-top: 48px;
 }
 .content-container{
   margin-top: 30px;
