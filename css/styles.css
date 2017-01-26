@@ -11,6 +11,39 @@
 	background: url('../images/loading-images/64x64/Preloader_8.gif') center no-repeat #fff;
 }
 
+/*#################### MOVE TO TOP ###################*/
+#back2Top {
+    width: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    z-index: 999;
+    display: none;
+    cursor: pointer;
+    -moz-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+    position: fixed;
+    bottom: 50px;
+    right: 0;
+    /*background-color: #DDD;
+    color: #555;*/
+		background-color: #8DC7FF;
+		color: gold;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+}
+#back2Top:hover {
+    /*background-color: #DDF;
+    color: #000;*/
+		background-color: gold;
+		color: #8DC7FF;
+}
+
+
+
 .my-navbar{
   background-color: #2B3A42;
   margin: 0 auto;
