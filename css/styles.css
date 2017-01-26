@@ -1,3 +1,16 @@
+/*PAGE LOADING CSS*/
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url('../images/loading-images/64x64/Preloader_8.gif') center no-repeat #fff;
+}
+
 .my-navbar{
   background-color: #2B3A42;
   margin: 0 auto;
