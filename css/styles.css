@@ -101,6 +101,7 @@
   height: 700px;
   background-repeat: no-repeat;
   background-size: cover;
+	background-attachment: fixed;
   position: relative;
 }
 .nav-section{
