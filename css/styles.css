@@ -151,92 +151,23 @@
   font-size: 60px;
 }
 /*##############SKILL SECTION####################*/
-.skill-logo{
-  margin-top: 30px;
-  border-bottom: 3px solid gold;
+
+.skills-bars p{
+	color: black;
 }
-.demo-3 {
-    position:relative;
-    width: 200px;
-    height: 200px;
-    overflow:hidden;
-    margin: 0 auto;
+
+.skills-logos{
+	/*display: inline-block;*/
+	margin: 10px;
+	text-align: center;
 }
-.demo-3{
-  list-style: none;
+.skills-logos img{
+	width: 100px;
+	height: 100px;
 }
-.demo-3 figure {
-    margin:0;
-    padding:0;
-    position:relative;
-    cursor:pointer;
-    margin-left:-50px
-}
-.demo-3 figure img {
-    display:block;
-    position:relative;
-    z-index:10;
-    margin:-15px 0;
-    width: 175px;
-    height: 175px;
-}
-.demo-3 figure figcaption {
-    display:block;
-    position:absolute;
-    z-index:5;
-    -webkit-box-sizing:border-box;
-    -moz-box-sizing:border-box;
-    box-sizing:border-box
-}
-.demo-3 figure h2 {
-    font-family: 'Play', sans-serif;
-    color:#fff;
-    font-size:30px;
-    margin-top: 50px;
-    text-align:center;
-}
-.demo-3 figure figcaption {
-    top:0;
-    left:0;
-    width:100%;
-    height:100%;
-    padding:29px 44px;
-    background-color: #2B3A42;
-    text-align:center;
-    backface-visibility:hidden;
-    -webkit-transform:rotateY(-180deg);
-    -moz-transform:rotateY(-180deg);
-    transform:rotateY(-180deg);
-    -webkit-transition:all .5s;
-    -moz-transition:all .5s;
-    transition:all .5s
-}
-.demo-3 figure img {
-    backface-visibility:hidden;
-    -webkit-transition:all .5s;
-    -moz-transition:all .5s;
-    transition:all .5s
-}
-.demo-3 figure:hover img,figure.hover img {
-    -webkit-transform:rotateY(180deg);
-    -moz-transform:rotateY(180deg);
-    transform:rotateY(180deg)
-}
-.demo-3 figure:hover figcaption,figure.hover figcaption {
-    -webkit-transform:rotateY(0);
-    -moz-transform:rotateY(0);
-    transform:rotateY(0)
-}
-.mobile-skills img{
-  height: 50px;
-  width: 50px;
-}
-.mobile-skills p{
-  font-size: 20px;
-}
-.mobile-skills{
-  margin-top: 30px;
-}
+
+
+/*############################ PROJECT SECTION ###################################*/
 .project-title{
   border-bottom: 3px solid gold;
 }
@@ -245,8 +176,6 @@
   font-size: 60px;
 }
 
-
-/*############################ PROJECT SECTION ###################################*/
 .worksection{
   background-color: #2B3A42;
   border-bottom: 3px solid gold;
