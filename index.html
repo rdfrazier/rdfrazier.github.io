@@ -12,6 +12,8 @@
     <link href="css/scrolling-nav.css" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/progressbar.css">
+    <!-- Sequence.js for work section potentially -->
+    <link rel="stylesheet" href="modern-slide-in/css/sequence-theme.modern-slide-in.css" />
     <link href="https://fonts.googleapis.com/css?family=Prompt" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" media="screen" title="no title">
@@ -142,60 +144,85 @@
           <!-- ########################### PROJECTS ############################## -->
           <div id="worksection" class="text-center project-title">
             <h1 class="projects">Web Development</h1>
-            <p class="text-center">Below you can view a few examples of my work as well as look on GitHub at more examples.</p>
+            <p class="text-center">Below you can view a few examples of my work as well as look on GitHub at more examples at the link the <i><b>Contact Me</b></i> section.</p>
           </div>
-          <div class="row">
-            <div class="col-md-12 well clearfix worksection">
 
-              <div class="grid">
-      					<figure class="effect-zoe">
-      						<img class="img-fluid" src="images/final.png" alt="img25"/>
-      						<figcaption>
-      							<h2>U-<span>Grub</span></h2>
-      							<p class="icon-links">
-                      <a href="https://github.com/frazierr2/final-project"><span><i class="fa fa-code projecticon" aria-hidden="true"></i></span></a>
-      								<a href="https://frazierr2.github.io/final-project/"><span><i class="fa fa-eye projecticon" aria-hidden="true"></i></span></a>
-      							</p>
-      							<p class="description">Personal restaurant critique app that also lets you search for local eateries using Yelp's API, HTML5, Bootstrap, React.js, Backbone.js and AJAX.</p>
-      						</figcaption>
-      					</figure>
-                <figure class="effect-zoe">
-      						<img class="img-responsive" src="images/github.png" alt="img25"/>
-      						<figcaption>
-      							<h2 id="mob-title">Github<span>Recreation</span></h2>
-      							<p class="icon-links">
-                      <a href="https://github.com/frazierr2/4.4-github-recreation"><span><i class="fa fa-code projecticon" aria-hidden="true"></i></span></a>
-                      <a href="https://frazierr2.github.io/4.4-github-recreation/"><span><i class="fa fa-eye projecticon" aria-hidden="true"></i></span></a>
-      							</p>
-      							<p class="description">Using GitHub's API, this project is a recreation of my GitHub profile using HTML5, Bootstrap, Handlebars.js, jQuery, Underscore.js and AJAX.</p>
-      						</figcaption>
-      					</figure>
-                <figure class="effect-zoe">
-      						<img class="img-responsive" src="images/skateshop.png" alt="img25"/>
-      						<figcaption>
-      							<h2>Skate<span>Shop</span></h2>
-      							<p class="icon-links">
-                      <a href="https://github.com/frazierr2/2.2-skate-shop-replica"><span><i class="fa fa-code projecticon" aria-hidden="true"></i></span></a>
-                      <a href="https://frazierr2.github.io/2.2-skate-shop-replica/"><span><i class="fa fa-eye projecticon" aria-hidden="true"></i></span></a>
-      							</p>
-      							<p class="description">Skate Shop is a project where given a mock design we had to create an identical representation, made using HTML5, CSS3 and Bootstrap to make responsive.</p>
-      						</figcaption>
-      					</figure>
-                <figure class="effect-zoe">
-      						<img class="img-responsive" src="images/pixel.png" alt="img25"/>
-      						<figcaption>
-      							<h2>Pixel<span>Perfect</span></h2>
-      							<p class="icon-links">
-                      <a href="https://github.com/frazierr2/1.4-pixel-perfect"><span><i class="fa fa-code projecticon" aria-hidden="true"></i></span></a>
-                      <a href="https://frazierr2.github.io/1.4-pixel-perfect/#"><span><i class="fa fa-eye projecticon" aria-hidden="true"></i></span></a>
-      							</p>
-      							<p class="description">Surf and Paddle is a project designed to test skills at getting a pixel perfect recreation of a mock webpage given by a designer.</p>
-      						</figcaption>
-      					</figure>
-      				</div>
+            <div class="row">
+                      <div id="sequence" class="seq col-md-12">
+                        <div class="seq-screen">
+                          <ul class="seq-canvas">
+                            <li class="seq-in">
+                              <div class="seq-model">
+                                <img data-seq src="images/final.png" alt="" />
+                              </div>
 
-            </div>
-          </div>
+                              <div class="seq-title">
+                                <h2 data-seq>U-Grub
+                                  <a href="https://github.com/frazierr2/final-project"><span><i class="fa fa-code view-source projecticon" aria-hidden="true"></i></span></a>
+                                <a href="https://frazierr2.github.io/final-project/"><span><i class="fa fa-eye projecticon" aria-hidden="true"></i></span></a>
+                              </h2>
+                                <h3 data-seq>Personal restaurant critique app that also lets you search for local eateries <br> using Yelp's API, HTML5, Bootstrap, React.js, Backbone.js and AJAX.</h3>
+                              </div>
+                            </li>
+
+                            <li>
+                              <div class="seq-model">
+                                <img data-seq src="images/githubMac.png" alt="" />
+                              </div>
+
+                              <div class="seq-title">
+                                <h2 data-seq>GitHub Recreation
+                                  <a href="https://github.com/frazierr2/4.4-github-recreation"><span><i class="fa fa-code view-source projecticon" aria-hidden="true"></i></span></a>
+                                  <a href="https://frazierr2.github.io/4.4-github-recreation/"><span><i class="fa fa-eye projecticon" aria-hidden="true"></i></span></a>
+                                </h2>
+                                <h3 data-seq>Using GitHub's API, this project is a recreation of my GitHub profile using HTML5, Bootstrap, Handlebars.js, jQuery, Underscore.js and AJAX.</h3>
+                              </div>
+                            </li>
+
+                            <li>
+                              <div class="seq-model">
+                                <img data-seq src="images/skateshopMac.png" alt="" />
+                              </div>
+
+                              <div class="seq-title">
+                                <h2 data-seq>Skate Shop
+                                  <a href="https://github.com/frazierr2/2.2-skate-shop-replica"><span><i class="fa fa-code view-source projecticon" aria-hidden="true"></i></span></a>
+                                  <a href="https://frazierr2.github.io/2.2-skate-shop-replica/"><span><i class="fa fa-eye projecticon" aria-hidden="true"></i></span></a>
+                                </h2>
+                                <h3 data-seq>Skate Shop is a project where given a mock design we had to create an identical representation, made using HTML5, CSS3, Sass and Bootstrap to make responsive.</h3>
+                              </div>
+                            </li>
+
+                            <li class="seq-in">
+                              <div class="seq-model">
+                                <img data-seq src="images/pixelMac.png" alt="" />
+                              </div>
+
+                              <div class="seq-title">
+                                <h2 data-seq>Surf and Paddle
+                                  <a href="https://github.com/frazierr2/1.4-pixel-perfect"><span><i class="fa fa-code view-source projecticon" aria-hidden="true"></i></span></a>
+                                  <a href="https://frazierr2.github.io/1.4-pixel-perfect/#"><span><i class="fa fa-eye projecticon" aria-hidden="true"></i></span></a>
+                                </h2>
+                                <h3 data-seq>Surf and Paddle is a project designed to test skills at getting a pixel perfect recreation <br> of a mock webpage given by a designer using HTML5 and CSS3.</h3>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+
+                        <fieldset class="seq-nav" aria-controls="sequence" aria-label="Slider buttons">
+                          <button type="button" class="seq-prev" aria-label="Previous">Previous</button>
+                          <button type="button" class="seq-next" aria-label="Next">Next</button>
+                        </fieldset>
+
+                        <ul role="navigation" aria-label="Pagination" class="seq-pagination">
+                          <li><a href="#step1" rel="step1" title="Go to slide 1"><img src="images/final1.jpg" /></a></li>
+                          <li><a href="#step2" rel="step2" title="Go to slide 2"><img src="images/github1.jpg" /></a></li>
+                          <li><a href="#step3" rel="step3" title="Go to slide 3"><img src="images/skateshop1.jpg" /></a></li>
+                          <li><a href="#step3" rel="step3" title="Go to slide 3"><img src="images/pixel1.jpg" /></a></li>
+                        </ul>
+                      </div>
+
+                    </div>
 
 
           <!-- ################################### CONTACT ME ################################# -->
@@ -246,5 +273,11 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js" type="text/javascript"></script>
+    <!-- Scripts for sequence.js -->
+    <script src="modern-slide-in/scripts/imagesloaded.pkgd.min.js"></script>
+    <script src="modern-slide-in/scripts/hammer.min.js"></script>
+    <script src="modern-slide-in/scripts/sequence.min.js"></script>
+    <script src="modern-slide-in/scripts/sequence-theme.modern-slide-in.js"></script>
+
   </body>
 </html>
