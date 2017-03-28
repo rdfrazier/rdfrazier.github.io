@@ -232,6 +232,10 @@
 .view-source{
 	padding-left: 60px;
 }
+.contact-thumbnail img{
+	width: 115px;
+	height: 100px;
+}
 /*#################### Contact Section ########################*/
 .contact-title{
   border-bottom: 3px solid gold;
