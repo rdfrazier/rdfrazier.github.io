@@ -130,10 +130,10 @@
 }
 .picture-window{
   background-image: url('../images/cover.jpg');
-  height: 700px;
+  height: 663px;
 	width: 100%;
   background-repeat: no-repeat;
-  background-size: cover;
+	background-size: 100% 100%;
 	background-attachment: fixed;
   position: relative;
 }
