@@ -131,6 +131,7 @@
 .picture-window{
   background-image: url('../images/cover.jpg');
   height: 700px;
+	width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
 	background-attachment: fixed;
@@ -186,7 +187,7 @@
 .computer-pic{
 	border-radius: 20px;
 	margin-top: 60px;
-	width: 582px;
+	width: 100%;
 	border: solid 5px black;open
 
 }
