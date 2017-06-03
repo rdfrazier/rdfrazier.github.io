@@ -130,10 +130,10 @@
 }
 .picture-window{
   background-image: url('../images/cover.jpg');
-  height: 663px;
+  height: 700px;
 	width: 100%;
   background-repeat: no-repeat;
-	background-size: 100% 100%;
+	background-size: cover;
 	background-attachment: fixed;
   position: relative;
 }
@@ -187,9 +187,9 @@
 .computer-pic{
 	border-radius: 20px;
 	margin-top: 60px;
-	width: 100%;
-	border: solid 5px black;open
-
+	border: solid 5px black;
+	width: 92%;
+	height: 410px;
 }
 .skills-bars{
 	padding: 0;
@@ -307,4 +307,11 @@
   #mob-title{
     font-size: 16px;
   }
+}
+
+
+@media screen and (min-width: 991px) and (max-width: 1230px){
+	.computer-pic{
+		width: 98%;
+	}
 }
