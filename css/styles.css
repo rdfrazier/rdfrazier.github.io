@@ -125,8 +125,7 @@
 
 .title{
   color: gold;
-  /*font-size: 7vw;*/
-  font-size: 80px;
+	display: inline-block;
 }
 .picture-window{
   background-image: url('../images/cover.jpg');
