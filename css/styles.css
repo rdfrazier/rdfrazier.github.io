@@ -128,7 +128,7 @@
 	display: inline-block;
 }
 .picture-window{
-  background-image: url('../images/cover.jpg');
+  background-image: url('../images/cover-min.jpg');
   height: 700px;
 	width: 100%;
   background-repeat: no-repeat;
