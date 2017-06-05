@@ -289,6 +289,7 @@ html,
   transform: translate3d(0, 0, 0);
 }
 
+
 @media only screen and (min-width: 640px) {
   .seq {
     /* Make the container 16:9 but no bigger than 90% of the screen height */
@@ -501,6 +502,18 @@ html,
     width: 52.5%;
     margin-right: 0;
   }
+
+}
+
+@media only screen and (max-width: 1280px){
+.seq .seq-model img{
+    width: 33vw;
+  }
+}
+@media only screen and (max-width: 639px){
+  .seq .seq-model img{
+      width: 50vw;
+    }
 }
 
 @media (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
