@@ -1,0 +1,179 @@
+.brand-logo {
+  width: 55px;
+  height: 55px;
+}
+/* ========================================== */
+/*          Hero Section Styling              */
+/* ========================================== */
+#self-portriat {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+#self-portriat::after {
+  background-image: url(../images/images-05032018/self-portriat.png);
+  background-size: 100% 100%;
+  background-position: center;
+  content: "";
+  opacity: 0.46;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+#name-container {
+  position: absolute;
+  top: 200px;
+  left: 70px;
+  transform: rotate(-10deg);
+}
+.my-name {
+  display: block;
+  font-family: "Rock Salt", cursive;
+  font-size: 67px;
+  font-weight: bolder;
+  color: #607d8b;
+}
+#i-am {
+  position: absolute;
+  top: 315px;
+  right: 300px;
+  font-family: "Rock Salt", cursive;
+  font-size: 60px;
+  color: #5d6d7e;
+  transform: rotate(-2deg);
+}
+#js-rotating {
+  position: absolute;
+  top: 400px;
+  right: 75px;
+  font-family: "Fredericka the Great", cursive;
+  font-size: 60px;
+  /* font-size: 65px; */
+  color: #5d6d7e;
+}
+#about-me-container {
+  /* height: 100vh; */
+  background: #fdd835;
+}
+#about-me-container h1 {
+  text-align: center;
+  margin: 60px 0 30px 0;
+  font-size: 50px;
+  /* color: #5d6d7e; */
+  color: #85929e;
+}
+
+.about-me p {
+  font-family: "Tajawal", sans-serif;
+  font-size: 20px;
+  color: #546e7a;
+}
+.about-me {
+  padding-top: 25px;
+}
+.come-in {
+  transform: translateY(150px);
+  animation: come-in 1s ease forwards;
+}
+.come-in:nth-child(odd) {
+  animation-duration: 0.8s; /* So they look staggered */
+}
+
+@keyframes come-in {
+  to {
+    transform: translateY(0);
+  }
+}
+/* ================================================================= */
+/*                        Media Queries                              */
+/* ================================================================= */
+/* Extra small devices (portrait phones, less than 576px) */
+@media (min-width: 400px) and (max-width: 575.98px) {
+  #self-portriat {
+    height: 60vh;
+  }
+  #name-container {
+    left: 20px;
+    top: 80px;
+  }
+  .my-name {
+    font-size: 25px;
+  }
+  #i-am {
+    font-size: 20px;
+    right: 90px;
+    top: 75px;
+  }
+  #js-rotating {
+    font-size: 15px;
+    right: 25px;
+    top: 110px;
+  }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  #name-container {
+    left: 27px;
+    top: 140px;
+  }
+  .my-name {
+    font-size: 38px;
+  }
+  #i-am {
+    font-size: 40px;
+    right: 95px;
+    top: 225px;
+  }
+  #js-rotating {
+    font-size: 28px;
+    right: 15px;
+    top: 290px;
+  }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  #name-container {
+    left: 50px;
+  }
+  .my-name {
+    font-size: 45px;
+  }
+  #i-am {
+    font-size: 50px;
+    right: 150px;
+  }
+  #js-rotating {
+    font-size: 40px;
+    right: 30px;
+  }
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .my-name {
+    font-size: 50px;
+  }
+  #i-am {
+    font-size: 50px;
+    right: 240px;
+  }
+  #js-rotating {
+    font-size: 45px;
+    right: 50px;
+  }
+  #about-me-container {
+    height: 100%;
+  }
+}
+/* Extra Large devices (desktops, less than 1200px) */
+@media (min-width: 1200px) {
+  #about-me-container {
+    height: 100vh;
+  }
+}
