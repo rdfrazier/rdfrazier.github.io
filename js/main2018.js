@@ -13,42 +13,24 @@ $(document).ready(function() {
     }
   });
 
-  //   ==========================================
-  //     Function to show About boxes when in view
-  //   ==========================================
-  (function($) {
-    $.fn.visible = function(partial) {
-      var $t = $(this),
-        $w = $(window),
-        viewTop = $w.scrollTop(),
-        viewBottom = viewTop + $w.height(),
-        _top = $t.offset().top,
-        _bottom = _top + $t.height(),
-        compareTop = partial === true ? _bottom : _top,
-        compareBottom = partial === true ? _top : _bottom;
-
-      return compareBottom <= viewBottom && compareTop >= viewTop;
-    };
-  })(jQuery);
-
-  var win = $(window);
-
-  var allMods = $(".module");
-
-  allMods.each(function(i, el) {
-    var el = $(el);
-    if (el.visible(true)) {
-      el.addClass("already-visible");
-    }
+  //   =============================================
+  //        Close Navbar on click LI
+  //   =============================================
+  $(".navbar-nav>li>a").on("click", function() {
+    $(".navbar-collapse").collapse("hide");
+  });
+  //   =============================================
+  //        Change Nav color on scroll
+  //   =============================================
+  $(document).scroll(function() {
+    var nav = $(".navbar");
+    nav.toggleClass(
+      "scrolled",
+      $(this).scrollTop() > $("#self-portriat").height()
+    );
   });
 
-  win.scroll(function(event) {
-    allMods.each(function(i, el) {
-      var el = $(el);
-      if (el.visible(true)) {
-        el.addClass("come-in");
-      }
-    });
-  });
+  //   =============================================
+
   //   =============================================
 });
