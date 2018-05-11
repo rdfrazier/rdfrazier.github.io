@@ -340,6 +340,7 @@ figure.snip0015:hover figcaption::before {
   padding: 60px 40px;
   background-color: #85929e;
   border-radius: 10px;
+  box-shadow: 4px 4px 20px #2e4053;
 }
 .cool-b4-form .btn {
   border-radius: 0;
