@@ -13,11 +13,14 @@
   <link rel="stylesheet" href="css/styles05032018.css">
 
   <!-- FONTS -->
-  <link href="https://fonts.googleapis.com/css?family=Rock+Salt|Fredericka+the+Great|Tajawal" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Rock+Salt|Fredericka+the+Great|Tajawal|Open+Sans|Open+Sans+Condensed:300|Josefin+Sans:100"
+    rel="stylesheet">
 
   <!-- LINKS TO PLUGINS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
   <link rel="stylesheet" href="css/morphext.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+    crossorigin="anonymous">
 
 
   <title>Ryan Frazier | Front-End Developer</title>
@@ -46,10 +49,10 @@
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Work</a>
+                  <a class="nav-link" href="#work-container">Work</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Contact</a>
+                  <a class="nav-link" href="#contact-container">Contact</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" target="_blank" href="files/RFrazier2017.3.pdf">Resume</a>
@@ -156,33 +159,118 @@
         <h1>&lt; Work
           <span style="color:#C0392B;">&sol;</span>&gt;
         </h1>
-        <div class="work-contents col-12 clearfix">
 
-          <figure class="snip0015 col-12 col-sm-6 col-lg-4">
+        <div class="work-contents col-12 clearfix">
+          <figure class="snip0015 col-12 col-sm-6 col-md-4 col-lg-3">
             <img src="images/jackson-screenshot.png" alt="sample38" />
             <figcaption>
               <h2>Jackson Furniture</h2>
-              <p>That everyone has his price, or that the price is always so low.</p>
-              <a href="#"></a>
+              <p>Family-owned living room furniture manufacturer.
+                <a class="btn btn-outline-warning" href="http://www.jacksonfurniture.com" role="button" target="_blank">View Site</a>
+              </p>
+
             </figcaption>
           </figure>
-          <figure class="snip0015 col-12 col-sm-6 col-lg-4">
-            <img src="images/rsvp-screenshot.png" alt="sample38" />
-            <figcaption>
-              <h2>Treehouse RSVP</h2>
-              <p>That everyone has his price, or that the price is always so low.</p>
-              <a href="#"></a>
-            </figcaption>
-          </figure>
-          <figure class="snip0015 col-12 col-sm-6 col-lg-4">
+          <figure class="snip0015 col-12 col-sm-6 col-md-4 col-lg-3">
             <img src="images/ugrub-screenshot.png" alt="sample38" />
             <figcaption>
               <h2>U-Grub</h2>
-              <p>That everyone has his price, or that the price is always so low.</p>
-              <a href="#"></a>
+              <p>CRUD App built with React to document and record restaurant experiences
+                <a class="btn btn-outline-warning" href="https://frazierr2.github.io/final-project/" role="button" target="_blank">View Site</a>
+              </p>
+
+            </figcaption>
+          </figure>
+          <figure class="snip0015 col-12 col-sm-6 col-md-4 col-lg-3">
+            <img src="images/rsvp-screenshot.png" alt="sample38" />
+            <figcaption>
+              <h2>Treehouse RSVP</h2>
+              <p>Treehouse app to level up in React
+                <a class="btn btn-outline-warning" href="https://frazierr2.github.io/RSVP-app/" role="button" target="_blank">View Site</a>
+              </p>
+            </figcaption>
+          </figure>
+          <figure class="snip0015 col-12 col-sm-6 col-md-4 col-lg-3">
+            <img src="images/futurefrazier-screenshot.png" alt="sample38" />
+            <figcaption>
+              <h2>Future Fraziers</h2>
+              <p>Wedding website used to learn Vue.js, Vue routing and to avoid plain non customizable wedding sites.
+                <a class="btn btn-outline-warning" href="http://www.futurefraziers.com" role="button" target="_blank">View Site</a>
+              </p>
             </figcaption>
           </figure>
 
+
+        </div>
+      </div>
+    </div>
+
+    <!-- =========== Contact Section ========== -->
+    <div class="row">
+      <div id="contact-container" class="col-12">
+        <h1>&lt; Contact
+          <span style="color:#C0392B;">&sol;</span>&gt;
+        </h1>
+        <h5>Interested in collaborating and working together to change the face of the web?</h5>
+        <h6>I'm always open to discussing employment and partnership opportunties</h6>
+        <div class="col-12 icon-container">
+          <a href="https://www.facebook.com/ryan.frazier.31" target="_blank">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/frazierr2/" target="_blank">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="https://github.com/frazierr2" target="_blank">
+            <i class="fab fa-github-alt"></i>
+          </a>
+        </div>
+        <div class="wrap">
+          <div class="container">
+            <form method="POST" class="cool-b4-form" action="https://formspree.io/contact@thinkfrazier.com">
+              <div class="form-row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <input type="text" class="form-control" name="name" id="name">
+                    <label for="name">Name</label>
+                    <span class="input-highlight"></span>
+                  </div>
+                  <div class="form-group">
+                    <input type="email" class="form-control" name="email" id="email">
+                    <label for="email">Email</label>
+                    <span class="input-highlight"></span>
+                  </div>
+                  <div class="form-group">
+                    <input type="text" class="form-control" name="subject" id="subject">
+                    <label for="subject">Subject</label>
+                    <span class="input-highlight"></span>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <textarea name="message" id="message" class="form-control"></textarea>
+                    <label for="message">Message</label>
+                    <span class="input-highlight"></span>
+                  </div>
+                </div>
+              </div>
+              <input type="hidden" name="_next" value="www.thinkfrazier.com" />
+              <div class="col-md-10 mx-auto mt-3">
+                <button type="submit" class="btn btn-lg btn-danger btn-block">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- =========== Footer Section ========== -->
+    <div class="row">
+      <div id="footer-container" class="col-12">
+        <div class="footer-content-container">
+          <img class="brand-logo" src="images/Logo-outline.png" alt="">
+          <h5>Living, learning & leveling up one day at a time.</h5>
+          <br>
+          <h6>Handcrafted by me &copy; 2018</h6>
         </div>
       </div>
     </div>
@@ -204,6 +292,8 @@
   <script src="js/morphext.min.js"></script>
 
   <script src="js/main2018.js"></script>
+
+
 </body>
 
 </html>

@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  "use strict";
+  ("use strict");
 
   $("#js-rotating").Morphext({
     // The [in] animation type. Refer to Animate.css for a list of available animations.
@@ -31,6 +31,13 @@ $(document).ready(function() {
   });
 
   //   =============================================
-
+  // Detect when form-control inputs are not empty
+  $(".cool-b4-form .form-control").on("input", function() {
+    if ($(this).val()) {
+      $(this).addClass("hasValue");
+    } else {
+      $(this).removeClass("hasValue");
+    }
+  });
   //   =============================================
 });
