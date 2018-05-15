@@ -475,7 +475,7 @@ figure.snip0015:hover figcaption::before {
     margin-top: -50px;
   }
   .about-me p {
-    font-size: 19.9px;
+    font-size: 18px;
   }
   .card-body h5:nth-child(2) {
     font-size: 15px;
@@ -516,6 +516,9 @@ figure.snip0015:hover figcaption::before {
   }
   .navbar-collapse {
     background-color: #f1f0ef;
+  }
+  .about-me p {
+    font-size: 18px;
   }
 }
 
