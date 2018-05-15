@@ -544,4 +544,7 @@ figure.snip0015:hover figcaption::before {
   #about-me-container {
     height: 100vh;
   }
+  .about-me p {
+    font-size: 20px;
+  }
 }
